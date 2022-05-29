@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="/assets/libs/datepicker/calendar.css"> -->
+    <link rel="stylesheet" href="/assets/libs/easepick/easepick.css">
+    <link rel="stylesheet" href="/assets/styles/fonts.css">
+    <link rel="stylesheet" href="/assets/styles/base.css">
+    <link rel="stylesheet" href="/assets/styles/elements.css">
+    <!-- <script src="/assets/libs/datepicker/calendar.js"></script> -->
+    <script src="/assets/libs/easepick/easepick.js"></script>
+    <script src="/assets/scripts/base.js"></script>
+    <script src="/assets/scripts/main.js"></script>
+    <title>Mars</title>
+</head>
+<body>
+    <!-- slide-panel -->
+    <div class="slide-panel" data-element="sp-panel">
+        <div class="slide-panel__layout">
+        </div>
+
+        <div class="slide-panel__container-fixed container-fixed">
+            <div class="slide-panel__content">
+                <button class="slide-panel__btn-burger btn-burger" data-element="btn-burger">
+                    <span class="btn-burger__icon">
+                        <span class="btn-burger__elem btn-burger__elem_1"></span>
+                        <span class="btn-burger__elem btn-burger__elem_2"></span>
+                        <span class="btn-burger__elem btn-burger__elem_3"></span>
+                    </span>
+                </button>
+
+                <div class="slide-panel__scroll-container">
+                    <!-- <div class="slide-panel__logo">
+                        <img src="/assets/images/logo-white.png" alt="Sight Inside">
+                    </div> -->
+                    <div class="slide-panel__scroll-content">
+                        <nav class="slide-panel__nav-side">
+                            <ul class="nav-side__list">                                
+                                <li class="nav-side__item">
+                                    <a href="#s" class="nav-side__item-link link-color">О марсе</a>
+                                </li>
+                                <li class="nav-side__item">
+                                    <a href="#" class="nav-side__item-link link-color">Процесс</a>
+                                </li>
+                                <li class="nav-side__item">
+                                    <a href="#" class="nav-side__item-link link-color">Билеты</a>
+                                </li>
+                                <li class="nav-side__item">
+                                    <a href="#" class="nav-side__item-link link-color">Новости</a>
+                                </li>
+                                <li class="nav-side__item">
+                                    <a href="#" class="nav-side__item-link link-color">Контакты</a>
+                                </li>
+                                <li class="nav-side__item">
+                                    <a href="#" class="nav-side__item-link link-color">Купить билеты</a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide-panel__zone-close" data-element="sp-handler">
+            </div>
+        </div>
+    </div>
+    <!-- end slide-panel -->
+
+    <header class="header" data-element="header">
+        <div class="container-fixed">
+            <div class="container-content">
+                <div class="header__logo">
+                    <img src="/assets/icons/logo-main.svg" alt="logo-main">
+                </div>
+
+                <nav class="header__nav nav-main">
+                    <ul class="nav-main__list">
+                        <li class="nav-main__item">
+                            <a href="#" class="nav-main__item-link link-color">О марсе</a>
+                        </li>
+                        <li class="nav-main__item">
+                            <a href="#" class="nav-main__item-link link-color">Процесс</a>
+                        </li>
+                        <li class="nav-main__item">
+                            <a href="#" class="nav-main__item-link link-color">Билеты</a>
+                        </li>
+                        <li class="nav-main__item">
+                            <a href="#" class="nav-main__item-link link-color">Новости</a>
+                        </li>
+                        <li class="nav-main__item">
+                            <a href="#" class="nav-main__item-link link-color">Контакты</a>
+                        </li>
+                    </ul>
+
+                    <button class="header__btn-burger btn-burger" data-element="btn-burger">
+                        <span class="btn-burger__icon">
+                            <span class="btn-burger__elem btn-burger__elem_1"></span>
+                            <span class="btn-burger__elem btn-burger__elem_2"></span>
+                            <span class="btn-burger__elem btn-burger__elem_3"></span>
+                        </span>
+                    </button>
+                </nav>
+
+                <button class="header__btn-bay btn-bay btn" data-element="btn-bay">
+                    Купить билеты
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section class="section-main">
+        <div class="container-fixed">
+            <div class="container-content">
+                <h1 class="section-main__title">Точка назначения: МАРС</h1>
+
+                <div class="section-main__mars mars">
+                    <div class="mars__scale"></div>
+    
+                    <p class="mars__title">Точка назначения:</p>
+
+                    <div class="mars__video-cont-pos">
+                        <div class="mars__video-cont-size" data-element="video">
+                            <video class="mars__video video" autoplay muted loop controlsList="nofullscreen">
+                                <source src="/assets/videos/mars.m4v" type="video/mp4">
+                            </video>
+                                
+                            <div class="video__controls video-controls"  data-element="video-controls">
+                                <button type="button" class="video-controls__play" data-element="video-play">
+                                    <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle class="hover-fill" cx="35" cy="40.625" r="25" fill="#3A3A3A"></circle>
+                                        <path class="hover-fill-bg" d="M35 4.375C18.0879 4.375 4.375 18.0879 4.375 35C4.375 51.9121 18.0879 65.625 35 65.625C51.9121 65.625 65.625 51.9121 65.625 35C65.625 18.0879 51.9121 4.375 35 4.375ZM44.8506 35.4717L29.9209 46.334C29.8391 46.3928 29.7426 46.4279 29.6421 46.4355C29.5416 46.443 29.4409 46.4227 29.3512 46.3768C29.2615 46.3309 29.1861 46.2611 29.1335 46.1752C29.0808 46.0892 29.0529 45.9904 29.0527 45.8896V24.1787C29.0524 24.0777 29.08 23.9786 29.1326 23.8924C29.1851 23.8061 29.2605 23.7361 29.3504 23.6901C29.4403 23.6441 29.5412 23.6239 29.6419 23.6317C29.7426 23.6395 29.8392 23.675 29.9209 23.7344L44.8506 34.5898C44.9211 34.6397 44.9787 34.7058 45.0184 34.7825C45.0581 34.8592 45.0788 34.9444 45.0788 35.0308C45.0788 35.1172 45.0581 35.2023 45.0184 35.279C44.9787 35.3557 44.9211 35.4218 44.8506 35.4717Z" fill="white"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <div class="modals-container">
+        <div class="modal modal_ticket-booking" data-modal="ticket-booking">
+            <div class="container-fixed">
+                <div class="container-content">
+                    <div class="modal__btn-close" onclick="LOCAL_STORE.popup.close()"></div>
+
+                    <h2 class="modal__title">Бронирование билетов</h2>
+
+                    <form class="modal__form" action="/" data-action="ticket-booking" data-form="ticket-booking">
+                        <div class="modal__field-group">
+                            <label class="modal__label" for="date-in">Дата заезда</label>
+                            <input class="modal__field" id="date-in" type="text" name="date-in" value="" data-field="date" required>
+                        </div>
+
+                        <div class="modal__field-group">
+                            <label class="modal__label" for="date-out">Дата выезда</label>
+                            <input class="modal__field" id="date-out" type="text" name="date-out" value="" data-field="date" required>
+                        </div>
+
+                        <div class="modal__field-group">
+                            <label class="modal__label" for="amount">Количество</label>
+                            <input class="modal__field" id="amount" type="text" name="amount" value="" required>
+                        </div>
+
+                        <button class="modal__btn btn" type="submit">Купить билеты</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-space">
+        <div class="container-fixed">
+            <div class="bg-space__layout-1"></div>
+            <div class="bg-space__layout-2"></div>
+        </div>
+    </div>
+
+    <svg width="0" height="0" fill="none">
+        <clipPath id="clip-mars" clipPathUnits="objectBoundingBox">
+        <path
+            d="M0.193,0.011 H0.289 V0.989 H0.224 V0.288 L0.176,0.989 H0.111 L0.06,0.297 V0.989 H0 V0.011 H0.096 L0.146,0.705 L0.193,0.011 M0.482,0.989 L0.471,0.811 H0.386 L0.374,0.989 H0.311 L0.381,0.011 H0.482 L0.552,0.989 H0.482 M0.461,0.679 L0.428,0.184 L0.395,0.679 H0.461 M0.676,0.011 C0.71,0.011,0.735,0.032,0.753,0.073 C0.77,0.114,0.778,0.174,0.778,0.253 V0.38 C0.778,0.459,0.77,0.519,0.753,0.56 C0.735,0.601,0.71,0.622,0.676,0.622 H0.643 V0.989 H0.574 V0.011 H0.676 M0.643,0.482 H0.676 C0.687,0.482,0.695,0.475,0.701,0.461 C0.707,0.447,0.709,0.423,0.709,0.39 V0.243 C0.709,0.209,0.707,0.186,0.701,0.172 C0.695,0.158,0.687,0.151,0.676,0.151 H0.643 V0.482 M1,0.754 C1,0.833,0.991,0.894,0.974,0.937 C0.956,0.979,0.931,1,0.898,1 C0.864,1,0.839,0.979,0.821,0.937 C0.804,0.894,0.795,0.833,0.795,0.754 V0.246 C0.795,0.167,0.804,0.106,0.821,0.064 C0.839,0.021,0.864,0,0.898,0 C0.931,0,0.956,0.021,0.974,0.064 C0.991,0.106,1,0.167,1,0.246 V0.341 H0.935 V0.236 C0.935,0.172,0.923,0.14,0.899,0.14 C0.876,0.14,0.864,0.172,0.864,0.236 V0.764 C0.864,0.827,0.876,0.859,0.899,0.859 C0.923,0.859,0.935,0.827,0.935,0.764 V0.624 H1 V0.754"
+            fill="white" />
+        </clipPath>
+    </svg>
+
+</body>
+</html>
