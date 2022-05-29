@@ -367,7 +367,7 @@ video::-webkit-media-controls-volume-slider {}
     overflow: hidden;
 }
 .bg-space__layout-1 {
-    background-image: url(/assets/images/bg.jpg);
+    background-image: url(../images/bg.jpg);
     background-size: cover;
     height: 100%;
     opacity: 1;
@@ -393,7 +393,7 @@ video::-webkit-media-controls-volume-slider {}
 .bg-space__layout-2,
 .bg-space__layout-2::before,
 .bg-space__layout-2::after {
-    background-image: url('/assets/images/bg-layout-1.webp');
+    background-image: url('../images/bg-layout-1.webp');
     position: absolute;
     top: 0;
     height: 100%;
