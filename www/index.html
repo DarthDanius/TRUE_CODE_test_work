@@ -152,22 +152,24 @@
                     <h2 class="modal__title">Бронирование билетов</h2>
 
                     <form class="modal__form" action="/" data-action="ticket-booking" data-form="ticket-booking">
-                        <div class="modal__field-group">
-                            <label class="modal__label" for="date-in">Дата заезда</label>
-                            <input class="modal__field" id="date-in" type="text" name="date-in" value="" data-field="date" required>
+                        <div class="modal__form-content">
+                            <div class="modal__field-group">
+                                <label class="modal__label" for="date-in">Дата заезда</label>
+                                <input class="modal__field" id="date-in" type="text" name="date-in" value="" data-field="date" required>
+                            </div>
+    
+                            <div class="modal__field-group">
+                                <label class="modal__label" for="date-out">Дата выезда</label>
+                                <input class="modal__field" id="date-out" type="text" name="date-out" value="" data-field="date" required>
+                            </div>
+    
+                            <div class="modal__field-group">
+                                <label class="modal__label" for="amount">Количество</label>
+                                <input class="modal__field" id="amount" type="text" name="amount" value="" required>
+                            </div>
+    
+                            <div><button class="modal__btn btn" type="submit">Купить билеты</button></div>
                         </div>
-
-                        <div class="modal__field-group">
-                            <label class="modal__label" for="date-out">Дата выезда</label>
-                            <input class="modal__field" id="date-out" type="text" name="date-out" value="" data-field="date" required>
-                        </div>
-
-                        <div class="modal__field-group">
-                            <label class="modal__label" for="amount">Количество</label>
-                            <input class="modal__field" id="amount" type="text" name="amount" value="" required>
-                        </div>
-
-                        <button class="modal__btn btn" type="submit">Купить билеты</button>
                     </form>
                 </div>
             </div>

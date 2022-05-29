@@ -486,6 +486,8 @@ video::-webkit-media-controls-volume-slider {}
             transform: translate(-50%, -50%) rotate(50deg);
 }
 .modal__form {
+}
+.modal__form-content {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
@@ -577,9 +579,11 @@ video::-webkit-media-controls-volume-slider {}
     .modal .container-fixed {
         padding-top: 50px;
     }
-    .modal__form {
+    .modal__form-content {
         -ms-grid-columns: minmax(0, 1fr);
         grid-template-columns: minmax(0, 1fr);
+        -ms-grid-rows: auto;
+        grid-template-rows: auto;
         row-gap: 20px;
     }
     .modal__btn {
