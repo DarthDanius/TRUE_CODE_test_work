@@ -83,8 +83,8 @@ document.addEventListener('DOMContentLoaded', (e) => {
             scrollToDate: false,
             format: 'DD.MM.YYYY',
             css: [
-                '/assets/libs/easepick/easepick.css',
-                '/assets/libs/easepick/custom.css'
+                '../libs/easepick/easepick.css',
+                '../libs/easepick/custom.css'
             ]
         });
 
