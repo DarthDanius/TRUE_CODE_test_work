@@ -2152,6 +2152,13 @@ class AnimLoad {
     }
 }
 
+// responsive window height
+let vh = window.innerHeight * 0.01;
+document.documentElement.style.setProperty('--vh', `${vh}px`);
+window.addEventListener('resize', () => {
+    vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
+});
 
 let main_menu
 document.addEventListener('DOMContentLoaded', () => {

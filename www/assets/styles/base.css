@@ -19,6 +19,7 @@
     --transparent: rgba(255, 255, 255, 0);
     --shadow-black: 0 0 15px 5px rgba(0, 0, 0, .2);
     --margin-side: 30px;
+    --vh: 1vh;
 }
 
 /* normalaze */
@@ -287,6 +288,7 @@ body {
     position: fixed;
     width: 100vw;
     height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
     z-index: 100;
     background-color: white;
 }
@@ -294,6 +296,7 @@ body {
     position: fixed;
     width: 100vw;
     height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
     z-index: 100;
     background-color: white;
     /* animation-name: load-layout;
@@ -342,6 +345,7 @@ body {
     opacity: 0;
     width: 100vw;
     height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
     background-color: rgba(17, 9, 15, .8);
     position: fixed;
     top: 0;
@@ -371,6 +375,7 @@ body {
 .popup {
     position: relative;
     max-height: 90vh;
+    max-height: calc(var(--vh, 1vh) * 90);
     max-width: 90vw;
     overflow: auto;
 }
@@ -525,6 +530,7 @@ body {
     opacity: 0;
     width: 100vw;
     height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
     top: 0;
     left: 0;
     background-image: url('../icons/icon-loader.svg');
@@ -968,6 +974,7 @@ body {
     position: fixed;
     width: 100vw;
     height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
     top: 0;
     left: 0;
     z-index: -1;
